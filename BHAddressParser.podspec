@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   3. 结合NSDataDetector智能高效识别，未直接使用地址库检索
                        DESC
 
-  s.homepage         = 'https://github.com/学宝/BHAddressParser'
+  s.homepage         = 'https://github.com/WWWarehouseMobile/BHAddressParser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '学宝' => 'xuebao.zhan@wwwarehouse.com' }
-  s.source           = { :git => 'https://github.com/学宝/BHAddressParser.git', :tag => s.version.to_s }
+  s.author           = { '学宝' => 'zhanxuebao@outlook.com' }
+  s.source           = { :git => 'git@github.com:WWWarehouseMobile/BHAddressParser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
